@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ваше портфолио</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Montserrat", sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #222;
+        color: #fff;
+      }
+
+      .header {
+        text-align: center;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .avatar {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 1rem;
+      }
+
+      .name {
+        font-size: 2.5rem;
+        margin-bottom: 0.5rem;
+      }
+
+      .title {
+        font-size: 1.5rem;
+        color: #aaa;
+      }
+
+      .container {
+        max-width: 800px;
+        margin: 2rem auto;
+        padding: 2rem;
+        background-color: #333;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      }
+
+      .about {
+        margin-bottom: 2rem;
+      }
+
+      .about-title {
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+      }
+
+      .about-text {
+        color: #aaa;
+      }
+
+      .project {
+        margin-bottom: 1.5rem;
+        animation: fadeInUp 1s both;
+      }
+
+      .project-title {
+        font-size: 1.25rem;
+        margin-bottom: 0.5rem;
+      }
+
+      .project-description {
+        color: #aaa;
+      }
+
+      .project-link {
+        display: inline-block;
+        padding: 0.5rem 1rem;
+        background-color: #007bff;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+      }
+
+      .project-link:hover {
+        background-color: #0056b3;
+      }
+
+      @keyframes fadeInUp {
+        from {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <img
+        src="https://i.pinimg.com/564x/06/49/d5/0649d5775f569eee17a590f1e3f5e760.jpg"
+        alt="Avatar"
+        class="avatar"
+      />
+      <div class="name">Bulef43</div>
+      <div class="title">Python Разработчик</div>
+    </div>
+    <div class="container">
+      <div class="about">
+        <div class="about-title">Обо мне</div>
+        <div class="about-text">
+          Привет! Я Python разработчик, мне 15 лет, с интересом отношусь к
+          созданию инновационных решений. Моя цель - разрабатывать эффективный и
+          качественный код, решать сложные задачи и принести пользу своим
+          проектам. В моем портфолио вы найдете некоторые из моих проектов и
+          навыки, которыми я обладаю.Также помимо пайтоне я активно изучаю веб
+          програмирование.Помимо веб-разработки я владелец сервера Hesuda,
+          сервер с самым приятным и умным комьюнити.
+        </div>
+      </div>
+      <div class="project">
+        <div class="project-title">OGfortnite</div>
+        <div class="project-description">
+          один из моих проектов(не самый удачный, но всё же неплохой) самые
+          свежие новости а также провренный магазин предметов по игре Fortnite.
+        </div>
+        <a href="https://t.me/FortniteOG_bot" class="project-link"
+          >Посмотреть проект</a
+        >
+      </div>
+      <div class="project">
+        <div class="project-title">Hesuda</div>
+        <div class="project-description">Моё дискорд сообщевство.</div>
+        <a href="https://discord.gg/7a2cwcJY9v" class="project-link"
+          >Посмотреть проект</a
+        >
+      </div>
+      <!-- Добавьте дополнительные проекты по аналогии -->
+    </div>
+  </body>
+</html>
